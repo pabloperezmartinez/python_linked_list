@@ -34,11 +34,15 @@ class LinkedList:
         return True
 
     def display(self):
-        current = self.head
-        while current:
+        if self.head is None:
+            print("Empty list")
+        else:
+            current = self.head
             print(current.value, end=" -> ")
-            current = current.next
-        print("None")
+            while current:
+                print(current.value, end=" -> ")
+                current = current.next
+            print("End")
 
     def shift(self):
         if self.head is None:
