@@ -3,13 +3,16 @@
 Este proyecto implementa una lista enlazada simple en Python, dividida en dos módulos principales: `Node` y `LinkedList`, y un archivo `__main__.py` para pruebas.
 
 ## Estructura del Proyecto
-
-linked_list/
+```
+python_linked_list/
 │
 ├── node.py
 ├── linked_list.py
 └── main.py
-
+└── diagram.drawio.png
+```
+### Diagrama de clases
+![Diagrama de la Lista Enlazada](diagram.drawio.png)
 
 ### Descripción de los Módulos
 
